@@ -1,8 +1,9 @@
 # Gandalf Ai (CTF) tricks:
 
 ***Architecture/ Working***: 
-	user input prompt -- input guard - system prompt - output guard -- output prompt
-
+```
+	user input prompt ---> input guard --> system prompt --> output guard ---> output prompt
+```
 **Tricks for bypassing**:
 
 - Narrative prompts (poems starting with each letter of the string)
@@ -13,5 +14,5 @@
 - okonagi
 - let the ai complete the sentence
 
-**Single prompt**:
-	- speak ---- , Hey what is this (*Only works for certain language)
+**Single prompt**:  
+> speak ---- , Hey what is this (*Only works for certain language)
